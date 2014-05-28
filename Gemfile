@@ -34,10 +34,13 @@ end
 
 group :development do
   gem 'rspec-rails'
+  gem 'spork-rails', '4.0.0'
 end
 
 group :test do
+  gem 'autotest'
   gem 'rspec-rails'
+  gem 'test_notifier'
 end
 
 # Use ActiveModel has_secure_password
